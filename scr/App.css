@@ -1,0 +1,83 @@
+/* Body */
+body {
+  background-color: #6E8080;
+  width: 98%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+
+}
+#root {
+  background-color: #6E8080;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: block;
+}
+
+/* App-container */
+#app-container {
+  background-color: #6E8080;
+  margin: 10px;
+  display: block;
+  padding: 0px;
+  width: 100%;
+}
+
+#game-container {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: #A4BFBF;
+  padding: 10px;
+}
+.list-group-item {
+  /* position: relative; */
+  color: var(--bs-list-group-color);
+  background-color: #6E8080;
+}
+
+
+
+#instructions {
+  margin: 0px;
+  display: block;
+  padding: 0px;
+  
+}
+
+.h6 {
+  text-align: left;
+  margin: 0px;
+}
+
+
+
+
+#play{
+  display: inline-block;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+#play-label{
+  display: block;
+  font-weight: bold;
+  font-family: 'Bree Serif', serif;
+}
+#display {
+  background-color: #A4BFBF;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: inherit;
+  display: block;
+    width: 100%;
+}
+#play-btn {
+  display: inline;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  margin-right: 2px;
+}
