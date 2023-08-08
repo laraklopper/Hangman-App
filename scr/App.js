@@ -17,8 +17,8 @@ const heading = [
 
 // The main App component
 export default function App() {
-  const [play, setPlay] = useState(true);  // State to track whether the game is being played or not
-
+  const [play, setPlay] = useState(false);  // State to track whether the game is being played or not
+  //The playGame function is used to determine whether or not the game is currently being played
 
   // Toggle function to display the Hangman game play state between true and false
   const playGame = () => {
