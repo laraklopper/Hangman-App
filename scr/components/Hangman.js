@@ -7,7 +7,7 @@ import state3 from './images/state8.GIF'; // Import the image file named "state8
 import state4 from './images/state9.GIF'; // Import the image file named "state9.GIF" as state4
 import state5 from './images/state10.gif'; // Import the image file named "state10.gif" as state5
 import Figure from 'react-bootstrap/Figure';//Import Bootstrap Figure component
-import './CSS stylesheets/game.css'
+import './CSS stylesheets/game.css';//Import CSS stylesheet
 
 // Function to change the image depending on the number of correct or incorrect answers and correct answer when the game is over
 export default function Hangman({ mistake, maxWrong }) {//Export the Hangman function used to display different images at different stages of the game 
