@@ -1,0 +1,145 @@
+/* Header */
+
+#heading {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    float: left;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading-container {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    width: 100%;
+    background: linear-gradient(to bottom left, #3782ab 12%, #6eaff0 86%);
+    height: -moz-fit-content;
+    justify-content: center;
+    
+}
+
+#header {
+    display: flex;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    width: 100%;
+    margin-right: 0px;
+    height: -moz-fit-content;
+    height: fit-content;
+    justify-content: space-evenly;
+}
+
+.h1 {
+    font-family: 'Alkatra', cursive;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+#instructions {
+    display: flex;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0px;
+    width: -moz-fit-content;
+    width: 40%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#instructions-label {
+    margin-right: 10px;
+    display: flex;
+    margin: 5px;
+}
+
+#help-btn {
+    margin-left: 10px;
+}
+
+
+#instructions-label{
+    float: left;
+
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    padding: 2px;
+}
+#head3 {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    color: #122B38;
+
+}
+/* Rules */
+
+#rules {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    width: 180px;
+    text-align: left;
+    background-color: #3F96C4;
+    border: none;
+}
+.list-group{
+    height: fit-content;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: 150px;
+}
+#rules-display{
+    display: flex;       
+    justify-content: flex-start;
+    flex-direction: row;
+    /* align-content: center; */
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: 39%;
+    margin: 0px;
+    padding: 0px;
+}
+#head4 {
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+
+}
+.h6{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.rule{
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+}
+
+#rules-list{
+    padding-top: 5px;
+    padding-right: 1px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    margin: 2px;
+    display: block;
+    background-color: #3F96C4;
+}
