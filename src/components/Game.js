@@ -60,38 +60,40 @@ export default function Game() {
         } else if (gameOver) {
             return <h3 className='message'>YOU LOST!</h3>;
         }
-    };
-
-   
+    }; 
 
 
-    console.log(answer); // Log the answer to the console
-
+    console.log(answer); // Log the answer to the console for debugging purposes
+//=====================JSX RENDERING=============================
     return (
         <>              
                 <div id='game'>
                     <div id='text-container'>
                         <div id='word'>
                             <h5 id='guess-heading'>GUESS THE WORD:</h5>
+                            {/*display the guessed word with underscores for unguessed letters*/}
                             <h6 className='h6' id='hidden-word'>{!gameOver ? guessedWord() : answer}</h6>
                         </div>
                         <div id='wrong-guess'>
+                        {/*Display the number of wrong guesses*/}
                             <h5 id='head5'>Wrong guesses: {mistake} of {maxWrong}</h5>
                         </div>
-                     
                     </div>
                     <div id='game-container'>
                         <div id='defeat'>
                             {/* Display the Hangman component based on the number of mistakes */}
                             <Hangman mistake={mistake} maxWrong={maxWrong} />
                         </div>
+                     {/* Letter Buttons */}
                         <div id='keyboard'>{generateButtons()}</div>
                         <div id='reset'>
+                             {/*Button to reset/restart the game*/}
                             <Button variant='primary' type='submit' onClick={resetButton} id='reset-button'>
                                 RESTART
                             </Button>
                         </div>
                     </div>
+                    {/*State whether the player has won or lost*/}
                     <div id='gamestatus'>
                         {gameStatus()}
                     </div>
